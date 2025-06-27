@@ -1,9 +1,9 @@
 cdt_name:
 - conda
 channel_sources:
-- conda-forge
+- conda-forge/label/lsprotocol_rc,conda-forge/label/pygls_alpha,conda-forge
 channel_targets:
-- conda-forge main
+- conda-forge pytest_lsp_alpha
 docker_image:
 - quay.io/condaforge/linux-anvil-x86_64:alma9
 python_min:

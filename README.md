@@ -34,14 +34,14 @@ Current release info
 Installing pytest-lsp
 =====================
 
-Installing `pytest-lsp` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `pytest-lsp` from the `conda-forge/label/pytest_lsp_alpha` channel can be achieved by adding `conda-forge/label/pytest_lsp_alpha` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/pytest_lsp_alpha
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `pytest-lsp` can be installed with `conda`:
+Once the `conda-forge/label/pytest_lsp_alpha` channel has been enabled, `pytest-lsp` can be installed with `conda`:
 
 ```
 conda install pytest-lsp
@@ -56,26 +56,26 @@ mamba install pytest-lsp
 It is possible to list all of the versions of `pytest-lsp` available on your platform with `conda`:
 
 ```
-conda search pytest-lsp --channel conda-forge
+conda search pytest-lsp --channel conda-forge/label/pytest_lsp_alpha
 ```
 
 or with `mamba`:
 
 ```
-mamba search pytest-lsp --channel conda-forge
+mamba search pytest-lsp --channel conda-forge/label/pytest_lsp_alpha
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search pytest-lsp --channel conda-forge
+mamba repoquery search pytest-lsp --channel conda-forge/label/pytest_lsp_alpha
 
 # List packages depending on `pytest-lsp`:
-mamba repoquery whoneeds pytest-lsp --channel conda-forge
+mamba repoquery whoneeds pytest-lsp --channel conda-forge/label/pytest_lsp_alpha
 
 # List dependencies of `pytest-lsp`:
-mamba repoquery depends pytest-lsp --channel conda-forge
+mamba repoquery depends pytest-lsp --channel conda-forge/label/pytest_lsp_alpha
 ```
 
 
