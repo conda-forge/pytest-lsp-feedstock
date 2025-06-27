@@ -1,0 +1,4 @@
+channel_targets:
+  - conda-forge pytest_lsp_alpha
+channel_sources:
+  - conda-forge/label/lsprotocol_rc,conda-forge/label/pygls_alpha,conda-forge
