@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: 0.4.3
+  version: "1.0.0"
 
 package:
   name: pytest-lsp
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytest-lsp/pytest_lsp-${{ version }}.tar.gz
-  sha256: 343f6bda2faa320ed5fcb77c9420d2703ce565d1d144fe827e3198a7dc29911c
+  sha256: ba8c95b2d975a360249ffa5768e1e6f44d87d10ef7754070d3b321102724a2f1
 
 build:
   number: 0
