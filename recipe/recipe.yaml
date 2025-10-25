@@ -2,7 +2,8 @@
 schema_version: 1
 
 context:
-  version: 0.4.3
+  version: "1.0.0"
+  python_check_max: "3.14"
 
 package:
   name: pytest-lsp
@@ -10,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytest-lsp/pytest_lsp-${{ version }}.tar.gz
-  sha256: 343f6bda2faa320ed5fcb77c9420d2703ce565d1d144fe827e3198a7dc29911c
+  sha256: ba8c95b2d975a360249ffa5768e1e6f44d87d10ef7754070d3b321102724a2f1
 
 build:
   number: 0
@@ -25,9 +26,9 @@ requirements:
     - python ${{ python_min }}.*
   run:
     - packaging
-    - pygls >=1.1.0
-    - pytest
-    - pytest-asyncio >=0.23
+    - pygls >=2.0.0
+    - pytest >=8
+    - pytest-asyncio >=1.0
     - python >=${{ python_min }}
 
 tests:
@@ -36,7 +37,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - 3.13.*
+        - ${{ python_check_max }}.*
   - files:
       source:
         - tests/
