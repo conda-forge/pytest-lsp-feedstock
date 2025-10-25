@@ -3,6 +3,7 @@ schema_version: 1
 
 context:
   version: "1.0.0"
+  python_check_max: "3.14"
 
 package:
   name: pytest-lsp
@@ -25,9 +26,9 @@ requirements:
     - python ${{ python_min }}.*
   run:
     - packaging
-    - pygls >=1.1.0
-    - pytest
-    - pytest-asyncio >=0.23
+    - pygls >=2.0.0
+    - pytest >=8
+    - pytest-asyncio >=1.0
     - python >=${{ python_min }}
 
 tests:
@@ -36,7 +37,7 @@ tests:
       pip_check: true
       python_version:
         - ${{ python_min }}.*
-        - 3.13.*
+        - ${{ python_check_max }}.*
   - files:
       source:
         - tests/
