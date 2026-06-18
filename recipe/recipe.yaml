@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.0"
+  version: "1.0.1"
   python_check_max: "3.14"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pytest-lsp/pytest_lsp-${{ version }}.tar.gz
-  sha256: ba8c95b2d975a360249ffa5768e1e6f44d87d10ef7754070d3b321102724a2f1
+  sha256: cd9950fec2991e65364430dd419daeedf546928788f457e1106d5b751aea0be8
 
 build:
   number: 0
@@ -54,7 +54,8 @@ about:
   summary: A pytest plugin for end-to-end testing of language servers
   license: MIT
   license_file: LICENSE
-  homepage: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
+  homepage: https://pypi.org/project/pytest-lsp
+  repository: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
   documentation: https://lsp-devtools.readthedocs.io
 
 extra:

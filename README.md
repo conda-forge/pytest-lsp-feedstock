@@ -3,11 +3,13 @@ About pytest-lsp-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-lsp-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
+Home: https://pypi.org/project/pytest-lsp
 
 Package license: MIT
 
 Summary: A pytest plugin for end-to-end testing of language servers
+
+Development: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
 
 Documentation: https://lsp-devtools.readthedocs.io/
 
@@ -15,10 +17,11 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26052&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/pytest-lsp-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/pytest-lsp-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/pytest-lsp-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
