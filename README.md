@@ -3,11 +3,13 @@ About pytest-lsp-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytest-lsp-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
+Home: https://pypi.org/project/pytest-lsp
 
 Package license: MIT
 
 Summary: A pytest plugin for end-to-end testing of language servers
+
+Development: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
 
 Documentation: https://lsp-devtools.readthedocs.io/
 
