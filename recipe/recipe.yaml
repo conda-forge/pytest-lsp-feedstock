@@ -54,7 +54,8 @@ about:
   summary: A pytest plugin for end-to-end testing of language servers
   license: MIT
   license_file: LICENSE
-  homepage: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
+  homepage: https://pypi.org/project/pytest-lsp
+  repository: https://github.com/swyddfa/lsp-devtools/tree/develop/lib/pytest-lsp
   documentation: https://lsp-devtools.readthedocs.io
 
 extra:
